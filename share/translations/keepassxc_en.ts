@@ -706,10 +706,6 @@
 <context>
     <name>AutoTypePlatformX11</name>
     <message>
-        <source>Trying to send invalid keysym.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Sequence aborted: Caps Lock is on</source>
         <translation type="unfinished"></translation>
     </message>
@@ -719,6 +715,10 @@
     </message>
     <message>
         <source>Unable to get valid keycode for key: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Trying to send invalid keyboard symbol.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2774,10 +2774,6 @@ Would you like to correct it?</source>
 <context>
     <name>EditEntryWidgetBrowser</name>
     <message>
-        <source>These settings affect to the entry&apos;s behaviour with the browser extension.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>General</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2806,10 +2802,6 @@ Would you like to correct it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Additional URL&apos;s</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Add</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2819,6 +2811,14 @@ Would you like to correct it?</source>
     </message>
     <message>
         <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>These settings affect the entry&apos;s behaviour with the browser extension.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Additional URLs</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6711,11 +6711,6 @@ Do you want to overwrite it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Set the key file for the database.
-This options is deprecated, use --set-key-file instead.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Set the key file for the database.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7914,10 +7909,6 @@ Kernel: %3 %4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Locked databases.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Database failed to lock.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7977,6 +7968,15 @@ Kernel: %3 %4</source>
     </message>
     <message>
         <source>allow screenshots and app recording (Windows/macOS)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set the key file for the database.
+This option is deprecated, use --set-key-file instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Databases have been locked.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -8601,23 +8601,7 @@ Kernel: %3 %4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot;
-           font-family:&apos;-apple-system&apos;,&apos;BlinkMacSystemFont&apos;,&apos;Segoe UI&apos;,&apos;Helvetica&apos;,&apos;Arial&apos;,&apos;sans-serif&apos;,&apos;Apple Color
-           Emoji&apos;,&apos;Segoe UI Emoji&apos;; font-size:14px; color:#24292e; background-color:#ffffff;&quot;&gt;This setting does
-           not override disabling recycle bin prompts&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-          </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Confirm when clients request entry deletion</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This improves compatibility with certain applications
-           which search for password without unlocking the database first.&lt;/p&gt;&lt;p&gt;But enabling this may also
-           crash the client if the database can not be unlocked within a certain timeout. (Usually 25s, but may be a
-           different value set in applications.)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-          </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8642,6 +8626,14 @@ Kernel: %3 %4</source>
     </message>
     <message>
         <source>Save current changes to activate the plugin and enable editing of this section.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This setting does not override disabling recycle bin prompts &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This improves compatibility with certain applications which search for password without unlocking the database first.&lt;/p&gt;&lt;p&gt;But enabling this may also crash the client if the database can not be unlocked within a certain timeout. (Usually 25s, but may be a different value set in applications.) &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
