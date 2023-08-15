@@ -504,7 +504,7 @@ QList<Entry*> BrowserService::confirmEntries(QList<Entry*>& entriesToConfirm,
 void BrowserService::showPasswordGenerator(const KeyPairMessage& keyPairMessage)
 {
     if (!m_passwordGenerator) {
-        m_passwordGenerator.reset(PasswordGeneratorWidget::popupGenerator(m_currentDatabaseWidget));
+        m_passwordGenerator = PasswordGeneratorWidget::popupGenerator(m_currentDatabaseWidget);
 
         connect(m_passwordGenerator.data(), &PasswordGeneratorWidget::closed, m_passwordGenerator.data(), [=] {
             if (!m_passwordGenerator->isPasswordGenerated()) {
@@ -513,7 +513,6 @@ void BrowserService::showPasswordGenerator(const KeyPairMessage& keyPairMessage)
                 m_browserHost->sendClientMessage(keyPairMessage.socket, errorMessage);
             }
 
-            m_passwordGenerator.reset();
             hideWindow();
             m_passwordGeneratorRequested = false;
         });

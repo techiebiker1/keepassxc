@@ -175,7 +175,7 @@ private:
     QUuid m_keepassBrowserUUID;
 
     QPointer<DatabaseWidget> m_currentDatabaseWidget;
-    QScopedPointer<PasswordGeneratorWidget> m_passwordGenerator;
+    QPointer<PasswordGeneratorWidget> m_passwordGenerator;
 
     Q_DISABLE_COPY(BrowserService);
 
