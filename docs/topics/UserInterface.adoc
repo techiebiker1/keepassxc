@@ -35,6 +35,13 @@ image::toolbar.png[]
 === Application Settings
 Users can configure KeePassXC to their personal tastes with a wide variety of general and security settings that apply to the whole application. These settings are accessible from _Tools_ -> _Settings_ or the cog wheel icon from the toolbar. Settings include: startup options, file management, entry management, user interface, language, security timeouts, and convenience.
 
+==== Basic Settings
+Startup settings are specified on this tab.
+When enabled the "On database unlock, show entries that" setting will apply a search filter that is displayed in the Search field and applied when the database is opened or unlocked. Disable the setting to prevent a search from being applied when the database is opened or unlocked.
+
+.On database unlock
+image::on_database_unlock.png[]
+
 ==== Setting the Theme
 KeePassXC ships with light and dark themes specifically designed to meet accessibility standards. In most cases, the appropriate theme for your system will be determined automatically, but you can always set a specific theme by using the _View_ menu. When a new theme is selected you will be prompted to restart KeePassXC to apply the theme immediately.
 
