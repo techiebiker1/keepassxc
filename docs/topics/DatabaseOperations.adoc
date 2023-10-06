@@ -73,7 +73,7 @@ image::quick_unlock.png[]
 
 // tag::advanced[]
 === Expired Entries
-By default, KeePassXC will show entries that are expired or will be expiring within 3 days after unlocking the database. This feature allows you to change your passwords before they expire and be aware of passwords that are no longer valid. You can disable or change this feature in the Application Settings.
+By default, KeePassXC will show entries that are expired or will be expiring within 3 days after unlocking the database by applying the Search filter `is:expired-3`. This feature allows you to change your passwords before they expire and be aware of passwords that are no longer valid. You can disable or change this feature in the xref:UserGuide.adoc#_applicaton_settings[Application Settings].
 
 === Advanced Save Options
 There are three ways that KeePassXC can handle database files. This behavior is set in the Application Settings under _File Operations_.
